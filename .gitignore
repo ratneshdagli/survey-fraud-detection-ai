@@ -1,0 +1,47 @@
+# Z-AUDIT — Git Ignore
+
+# Python & OS
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.env
+
+# Database
+zaudi.db
+audit.db
+*.sqlite3
+
+# Node
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.cache/
+
+# Uploads & Temp Data
+uploads/
+backend/chrome_profile/
+
+# Documentation & Misc
+*.md
+!README.md
+!Z-AUDIT_Architecture.md
+*.doc
+*.docx
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+~$*
