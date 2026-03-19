@@ -35,8 +35,8 @@
 │  └──────────────────────────────────────────────────────────┘               │
 │                                                                             │
 │  DATA SOURCES:                                                              │
-│    d:\Zeex AI\MH Project 17-03-26\{uid}.wav    ← Audio files               │
-│    d:\Zeex AI\data_with_json.csv               ← Metadata + Q&A            │
+│    C:\Path\To\Project\MH Project 17-03-26\{uid}.wav    ← Audio files               │
+│    C:\Path\To\Project\data_with_json.csv               ← Metadata + Q&A            │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -60,7 +60,7 @@
 ## Directory Structure
 
 ```
-d:\Zeex AI\
+C:\Path\To\Project\
 ├── zaudi-mvp\
 │   ├── frontend\
 │   │   └── src\
@@ -1310,7 +1310,7 @@ Frontend has a **🔊 Test GPU** button in the header that calls this endpoint a
 
 ```bash
 # 1. Set API keys
-# In d:\Zeex AI\zaudi-mvp\backend\.env:
+# In C:\Path\To\Project\zaudi-mvp\backend\.env:
 GROQ_API_KEY=your_groq_key_here
 HF_TOKEN=your_huggingface_token_here
 
@@ -1320,7 +1320,7 @@ HF_TOKEN=your_huggingface_token_here
 #    https://huggingface.co/pyannote/speaker-diarization-community-1
 
 # 3. Install backend dependencies
-cd "d:\Zeex AI\zaudi-mvp\backend"
+cd "C:\Path\To\Project\zaudi-mvp\backend"
 pip install fastapi uvicorn sqlalchemy groq python-dotenv pandas openpyxl soundfile
 
 # 4. Install GPU-enabled PyTorch + pyannote (IMPORTANT: use CUDA index URL)
@@ -1334,7 +1334,7 @@ python seed_real.py
 python -m uvicorn main:app --reload --port 8000
 
 # 7. Start frontend (new terminal)
-cd "d:\Zeex AI\zaudi-mvp\frontend"
+cd "C:\Path\To\Project\zaudi-mvp\frontend"
 npm install
 npm run dev
 

@@ -1,7 +1,6 @@
 # Z-AUDIT — System Architecture (Detailed)
 
 > **Version:** 1.0 MVP | **Date:** March 2026  
-> **Company:** Zeex AI Private Limited | IIT Madras Research Park, Chennai
 
 ---
 
@@ -455,4 +454,4 @@ Response: {
 
 ---
 
-*Z-AUDIT Architecture Document v1.0 | Zeex AI Private Limited | March 2026*
+*Z-AUDIT Architecture Document v1.0 | March 2026*

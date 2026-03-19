@@ -32,8 +32,8 @@ from fraud_detection import analyze_fraud
 # =============================================
 # Configuration — CHANGE THESE PATHS IF NEEDED
 # =============================================
-CSV_PATH = r"d:\Zeex AI\data_with_json.csv"
-AUDIO_DIR = r"d:\Zeex AI\MH Project 17-03-26"
+CSV_PATH = r"C:\Path\To\data_with_json.csv"
+AUDIO_DIR = r"C:\Path\To\Audio"
 USE_REAL_TRANSCRIPTION = True   # Set to False to skip Whisper (uses mock transcript from Q&A)
 LLM_MODEL = "llama-3.1-8b-instant"  # Fast 8B model (change to "llama-3.3-70b-versatile" for best quality)
 

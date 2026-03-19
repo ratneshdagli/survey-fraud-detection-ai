@@ -114,5 +114,3 @@ z-audit/
 ```
 
 ---
-
-*Z-AUDIT | Built by Zeex AI | IIT Madras Research Park | 2026*

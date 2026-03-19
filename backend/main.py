@@ -33,7 +33,7 @@ UPLOAD_DIR = os.path.join(os.path.dirname(__file__), "uploads")
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 # Audio files directory (original recordings)
-AUDIO_DIR = os.getenv("AUDIO_DIR", r"d:\Zeex AI\MH Project 17-03-26")
+AUDIO_DIR = os.getenv("AUDIO_DIR", r"C:\Path\To\Audio")
 
 # Initialize FastAPI
 app = FastAPI(
